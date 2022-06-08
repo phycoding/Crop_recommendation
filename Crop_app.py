@@ -66,7 +66,7 @@ fertilizer_dic = {
 
 
 from PIL import Image
-image = Image.open("C:\\Users\\ASUS\\Crop_rec\\cet.png")
+image = Image.open("cet.png")
 
 menu=["Crop Recommendation","Fertilizer Recommendation"]
 choices=st.sidebar.selectbox("Menu Bar",menu)
