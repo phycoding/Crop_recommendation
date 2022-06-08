@@ -91,7 +91,7 @@ if choices=='Crop Recommendation':
         value=[N,P,K,temperature,humidity,ph,rainfall]
         df=pd.DataFrame(value).transpose()
         # st.dataframe(df)
-        model= tf.keras.models.load_model("C:\\Users\\ASUS\\Crop_rec\\Crop_reccomandation.h5")
+        model= tf.keras.models.load_model("Crop_reccomandation.h5")
         clas = ('rice', 'maize', 'chickpea', 'kidneybeans', 'pigeonpeas',
        'mothbeans', 'mungbean', 'blackgram', 'lentil', 'pomegranate',
        'banana', 'mango', 'grapes', 'watermelon', 'muskmelon', 'apple',
