@@ -203,7 +203,7 @@ if choices=='Fertilizer Recommendation':
                 key = "Klow"
 
         response = str(fertilizer_dic[key])
-        st.components.v1.html(f" {response} ", width=None, height=None, scrolling=False)
+        st.components.v1.html(f" {response} ", width=None, height=None, scrolling=True)
         st.subheader(f" {response} ")
 
 
